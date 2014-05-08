@@ -1,13 +1,13 @@
 ﻿Shader "Custom/Fresnel Specular"
 {
-	Properties
+    Properties
     {
-		_MainTex("Base", 2D) = "white" {}
+        _MainTex("Base", 2D) = "white" {}
         _Color("Color", Color) = (0.5, 0.5, 0.5, 1)
         _Gloss("Gloss", float) = 1
         _Specular("Specular", float) = 0.8 
         _Fresnel("Fresnel", float) = 0.6
-	}
+    }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
@@ -58,5 +58,5 @@
         }
         ENDCG
     } 
-	FallBack "Specular"
+    FallBack "Specular"
 }

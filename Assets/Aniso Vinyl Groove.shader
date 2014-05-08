@@ -1,14 +1,14 @@
 ﻿Shader "Custom/Aniso Vinyl Groove"
 {
-	Properties
+    Properties
     {
-		_MainTex("Anisotropy Map", 2D) = "white" {}
+        _MainTex("Anisotropy Map", 2D) = "white" {}
         _Gloss("Gloss", float) = 1
         _Specular("Specular", float) = 0.8 
         _Fresnel("Fresnel", float) = 0.6
         _InvAlphaX("Inv Alpha X", float) = 10
         _InvAlphaY("Inv Alpha Y", float) = 0.6
-	}
+    }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
@@ -78,5 +78,5 @@
         }
         ENDCG
     } 
-	FallBack "Specular"
+    FallBack "Specular"
 }
