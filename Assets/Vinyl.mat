@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: d820928014daa4638bd599418eab6e53, type: 3}
+          m_Texture: {fileID: 2800000, guid: fda1e11d3553f4187ae75382cbd988ce, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -48,21 +48,29 @@ Material:
         second: .286084592
       data:
         first:
-          name: _Gloss
-        second: 2
-      data:
-        first:
           name: _InvAlphaX
-        second: 8.93000031
+        second: 9
       data:
         first:
           name: _InvAlphaY
-        second: .460000008
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: 1
+      data:
+        first:
+          name: _Specular
+        second: .800000012
+      data:
+        first:
+          name: _Fresnel
+        second: .600000024
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .213235319, g: .213235319, b: .213235319, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _SpecColor
